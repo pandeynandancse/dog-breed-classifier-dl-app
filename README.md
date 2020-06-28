@@ -19,12 +19,13 @@
 
 
 ## Overview
-This is a simple multi class image classification application developed using keras. The trained model can be downloaded which is an image as an input via file upload and then model predicts the class/breed of image/dog.
+This is a simple multi class image classification application developed using keras. The trained model can be downloaded and store it inside models folder with name model_resnet.h5 that takes image as an input via file upload and then model predicts the class/breed of image/dog.
 
 
 ## Directory Tree 
 ```
-
+├── models
+|    ├── model_resnet.h5
 ├── static
 |    ├── css
 |    ├── js
