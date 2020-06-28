@@ -14,30 +14,28 @@
 
 
 ## Demo
-Link: [https://spam-detector-ml-app.herokuapp.com/](https://spam-detector-ml-app.herokuapp.com/)
-
-[![](https://i.imgur.com/z3LLN7V.png)](https://spam-detector-ml-app.herokuapp.com/)
+[![](https://imgur.com/0xvAH3I)]
 
 
 
 ## Overview
-This is a simple spam detection application developed using sklearn. The trained model (`model/model.h5`) takes string of message as an input and predicts the class of message as spam or not spam. It's a multiclass problem. Dataset has been taken from [Kaggle](https://www.kaggle.com/uciml/sms-spam-collection-dataset)
-
+This is a simple multi class image classification application developed using keras. The trained model can be downloaded which is an image as an input via file upload and then model predicts the class/breed of image/dog.
 
 
 ## Directory Tree 
 ```
-├── model
-|    ├── nlp_model.pkl
-|    ├── transform.pkl
+
 ├── static
-|    ├── style.css
+|    ├── css
+|    ├── js
+|    ├── images
 ├── templates
-|    ├── home.html
+|    ├── base.html
 |    ├── result.html
-├── LICENSE
+├── Dockerfile
 ├── Procfile
 ├── README.md
+├── activation.bat
 ├── app.py
 ├── requirements.txt
 
@@ -47,19 +45,18 @@ This is a simple spam detection application developed using sklearn. The trained
 
 ## To Do
 1. More Interactive and stylish
-2. Multi - text prediction at same time
-3. Upload csv and make prediction on csv and download that file
+2. Multi Image prediction at same time
 
 
 
 ## Bug / Feature Request
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/pandeynandancse/spam_detection_app/issues/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/pandeynandancse/dog-breed-classifier-dl-app/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/pandeynandancse/spam_detection_app/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/pandeynandancse/dog-breed-classifier-dl-app/issues/new). Please include sample queries and their corresponding results.
 
 
 ## Contribution
-If you'd like to do some contribution, feel free to do so by opening a pull request [here](https://github.com/pandeynandancse/Indian-Paper-Currency-Prediction/pulls). Please include sample queries and their corresponding results.
+If you'd like to do some contribution, feel free to do so by opening a pull request [here](https://github.com/pandeynandancse/dog-breed-classifier-dl-app/pulls). Please include sample queries and their corresponding results.
 
 
 
@@ -68,7 +65,7 @@ If you'd like to do some contribution, feel free to do so by opening a pull requ
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://blogeduonix-2f3a.kxcdn.com/wp-content/uploads/2018/12/Linear-Discriminant-Analysis.jpg" width=200>](https://scikit-learn.org/stable/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) 
+[<img target="_blank" src="https://keras.io/img/logo.png" width=200>](https://keras.io/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) 
 
 
 
@@ -81,6 +78,5 @@ If you'd like to do some contribution, feel free to do so by opening a pull requ
 
 
 ## Credits
-Data has been taken from [Kaggle](https://www.kaggle.com/uciml/sms-spam-collection-dataset).
-Thanks to kaggle for this awesome data.
+Special thanks to Kris Naik sir 
 
