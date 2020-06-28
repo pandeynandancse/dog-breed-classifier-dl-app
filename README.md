@@ -14,7 +14,7 @@
 
 
 ## Demo
-[![](https://i.imgur.com/0xvAH3I.png)]
+![](https://i.imgur.com/0xvAH3I.png)
 
 
 
