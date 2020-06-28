@@ -33,6 +33,7 @@ This is a simple multi class image classification application developed using ke
 ├── templates
 |    ├── base.html
 |    ├── result.html
+├── uploads
 ├── Dockerfile
 ├── Procfile
 ├── README.md
