@@ -5,6 +5,8 @@
   * [Demo](#demo)
   * [Overview](#overview)
   * [Directory Tree](#directory-tree)
+  * [Installation](#installation)
+  * [Run](#run)
   * [To Do](#to-do)
   * [Bug / Feature Request](#bug---feature-request)
   * [Contribution](#contribution)
@@ -43,7 +45,20 @@ This is a simple multi class image classification application developed using ke
 
 ```
 
+## Installation
+1. Windows user can double click on activation.bat file to install required package
+2. Linux User type following command in commnand line
+```bash
+pip install -r requirements.txt
+```
 
+## Run
+1. After successfull installation windows user can directly open this link : https://127.0.0.1:5000
+2. After successful installation open type
+```bash
+python app.py
+ ```
+and then open link : https://127.0.0.1:5000
 
 ## To Do
 1. More Interactive and stylish
